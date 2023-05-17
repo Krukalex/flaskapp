@@ -228,7 +228,7 @@ webencodings==0.5.1
 Werkzeug==2.2.3
 widgetsnbextension==3.5.1
 wrapt==1.11.2
-WTForms @ file:///Users/ktietz/demo/mc3/conda-bld/wtforms_1629354749392/work
+#WTForms @ file:///Users/ktietz/demo/mc3/conda-bld/wtforms_1629354749392/work
 wurlitzer==2.0.0
 xlrd==1.2.0
 XlsxWriter==1.2.7
