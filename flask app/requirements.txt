@@ -48,7 +48,7 @@ diff-match-patch==20181111
 distributed==2.11.0
 dnspython==1.16.0
 docutils==0.16
-email-validator @ file:///tmp/build/80754af9/email-validator_1623674793554/work
+#email-validator @ file:///tmp/build/80754af9/email-validator_1623674793554/work
 entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.1.0
