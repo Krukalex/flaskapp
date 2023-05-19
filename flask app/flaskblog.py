@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_sqlalchemy import SQLAlchemy
 from forms import RegistrationForm, LoginForm
-from waitress import serve
+#from waitress import serve
 
 app = Flask(__name__)
 app.config["SECRET_KEY"]= 'bd5a8f72244a96ac8078b4c2f5fbc0e4'
@@ -76,6 +76,6 @@ def login():
     return render_template('login.html', title = 'Login', form = form)
 
 if __name__ == '__main__':
-    #app.run(debug=True)
-    serve(app, host = '0.0.0.0', port = 80)
+    app.run(debug=True)
+    #serve(app, host = '0.0.0.0', port = 80)
 
